@@ -49,7 +49,7 @@ params:
   profileMode:
     enabled: true
     title: "Hi👋!"
-    subtitle: I'm Jalal Eddine, a dedicated SysAdmin holding certifications in Microsoft Azure (Entra ID) and Microsoft 365. Currently excelling in my role at Sully Group, I leverage a robust foundation in System Administration to ensure resilient IT infrastructure. My commitment to staying ahead in the dynamic tech landscape is evident through continuous learning and certifications. Beyond work, I express my passion for technology through impactful content creation, sharing insights into the ever-evolving realm of system administration. 🚀💻
+    subtitle: I'm <b>Jalal Eddine</b>, a dedicated SysAdmin holding certifications in Microsoft Azure (Entra ID) and Microsoft 365. Currently excelling in my role at Sully Group, I leverage a robust foundation in System Administration to ensure resilient IT infrastructure. My commitment to staying ahead in the dynamic tech landscape is evident through continuous learning and certifications. Beyond work, I express my passion for technology through impactful content creation, sharing insights into the ever-evolving realm of system administration. 🚀💻
     imageUrl: "home/Jalal.png"
     imageWidth: 220
     imageHeight: 220
@@ -67,15 +67,15 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:jalal@elharda.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
-    - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://www.linkedin.com/in/jalalelharda"
+    #- name: "github"
+    #  url: "https://github.com/jalal4ever"
+    #- name: "youtube"
+    #  url: "https://www.youtube.com/c/"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+      url: "https://drive.google.com/file/d/1dUIndF4NM4ANwPGiZncKD7NwhZQEi8h4/view"
 
   # text search
   fuseOpts:
