@@ -68,7 +68,7 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:jalal@elharda.com"
+      url: mailto:jalal@elharda.com
     - name: "linkedin"
       url: "https://www.linkedin.com/in/jalalelharda"
     #- name: "github"
