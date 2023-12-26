@@ -1,12 +1,12 @@
 ---
-title: "I passed the MS-102 Certification Exam"
+title: "I passed the Microsoft 365 Administrator Certification Exam"
 description: "Unlocking Success: Microsoft 365 Administrator Certification (MS-102)"
 dateString: Nov 2023
 draft: false
 tags: ["Microsoft", "Microsoft 365", "Certification", "Administrator"]
 weight: 101
 cover:
-    image: "/blog/aws-dva-certification/cover.jpg"
+    image: "/blog/ms-102-certification/Cover.png"
 ---
 
 # Introduction
