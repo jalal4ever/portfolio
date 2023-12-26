@@ -36,6 +36,7 @@ menu:
 
 params:
   # theme
+  defaultTheme: dark
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
