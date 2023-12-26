@@ -51,8 +51,8 @@ params:
     title: "Hi👋!"
     subtitle: I'm <b>Jalal Eddine</b>, a dedicated SysAdmin holding certifications in Microsoft Azure (Entra ID) and Microsoft 365. Currently excelling in my role at Sully Group, I leverage a robust foundation in System Administration to ensure resilient IT infrastructure. My commitment to staying ahead in the dynamic tech landscape is evident through continuous learning and certifications. Beyond work, I express my passion for technology through impactful content creation, sharing insights into the ever-evolving realm of system administration. 🚀💻
     imageUrl: "home/Jalal.png"
-    imageWidth: 220
-    imageHeight: 220
+    imageWidth: 240
+    imageHeight: 240
     # buttons:
     #   - name: Resume
     #     url: ""

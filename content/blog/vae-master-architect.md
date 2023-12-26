@@ -4,9 +4,9 @@ description: "Navigating Success: Master's Preparation through VAE as a Systems 
 dateString: Jan 2024
 draft: false
 tags: ["VAE", "Master", "Architect", "System"]
-weight: 101
+weight: 100
 cover:
-    image: "/blog/ms-102-certification/Cover.png"
+    image: "/blog/vae-master-architect/Cover.png"
 ---
 
 # Introduction
