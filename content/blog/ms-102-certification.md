@@ -1,6 +1,6 @@
 ---
 title: "J'ai réussi l'examen de certification d'administrateur Microsoft 365"
-description: "Débloquer le Succès : Certification d'Administrateur Microsoft 365 (MS-102)"
+description: "Débloquer le Succès : certification d'Administrateur Microsoft 365 (MS-102)"
 dateString: Nov 2023
 draft: false
 tags: ["Microsoft", "Microsoft 365", "Certification", "Administrator"]
@@ -13,7 +13,7 @@ cover:
 
 Dans un monde axé sur la technologie, la certification d'administrateur Microsoft 365 MS-102 est devenue une étape cruciale pour les professionnels de l'informatique. Elle valide l'expertise dans la gestion efficace des fonctionnalités avancées de Microsoft 365, couvrant la gestion des identités, la sécurité, la gestion des charges de travail, et bien plus encore.
 
-# Exam MS-102 - Certifications
+# Exam MS-102 - certifications
 
 Cet examen évalue la capacité du candidat à accomplir les tâches techniques suivantes : déployer et gérer un locataire Microsoft 365 ; mettre en œuvre et gérer l'identité et l'accès dans Microsoft Entra ID ; gérer la sécurité et les menaces en utilisant Microsoft 365 Defender ; et gérer la conformité en utilisant Microsoft Purview.
 
@@ -21,11 +21,11 @@ Cet examen évalue la capacité du candidat à accomplir les tâches techniques 
 
 L'examen se compose d'une diversité de questions, évaluant la compréhension des principes essentiels de l'administration de Microsoft 365. C'est une opportunité pour les candidats de démontrer une compréhension approfondie des fonctionnalités et des meilleures pratiques.
 
-# Stratégie de Préparation
+# Stratégie de préparation
 
 La préparation a nécessité une approche méthodique. Malgré un emploi du temps chargé, une exploration assidue des ressources recommandées, la participation à des cours en ligne dédiés au MS-102, l'exploration de scénarios pratiques et la pratique active avec les outils Microsoft 365 ont été des points essentiels de ce parcours.
 
-# Conseils Précieux
+# Conseils précieux
 
 - Pratique Régulière : Utilisez les environnements de test disponibles pour vous familiariser avec les différentes fonctionnalités.
 - Exploration de Scénarios Réels : Le MS-102 évalue votre capacité à résoudre des problèmes réels. Familiarisez-vous avec des scénarios pratiques.
