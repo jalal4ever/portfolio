@@ -1,12 +1,12 @@
 baseURL: "https://portfolio.elharda.com"
-languageCode: en-us
+languageCode: fr-fr
 title: Jalal EL HARDA
 theme: PaperMod
 
 menu:
   main:
     - identifier: home
-      name: Home
+      name: Accueil
       url: /
       weight: 10
     - identifier: blog
@@ -14,7 +14,7 @@ menu:
       url: /blog
       weight: 20
     - identifier: projects
-      name: Projects
+      name: Projets
       url: /projects
       weight: 30
     - identifier: experience
@@ -26,7 +26,7 @@ menu:
       url: /tags
       weight: 50
     - identifier: search
-      name: Search
+      name: Recherche
       url: /search
       weight: 60
     # - identifier: notes
@@ -49,8 +49,8 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Hi👋!"
-    subtitle: I'm <b>Jalal Eddine</b>, a dedicated SysAdmin with certifications in Microsoft Azure (Entra ID) and Microsoft 365. Doing well at Sully Group, I use my strong skills in system administration to keep our IT setup strong. I'm always learning and getting certifications to stay updated in the fast-changing tech world. Outside of work, I share techie stuff through content creation, talking about what's happening in system administration. 🚀💻
+    title: "Hello👋!"
+    subtitle: Je suis <b>Jalal</b>, un administrateur système fort de 13 années d'expérience, titulaire de certifications en Microsoft Azure (Entra ID) et Microsoft 365. Mon expertise avancée en administration système est au service de la solidité de notre infrastructure informatique. Toujours avide d'apprendre et de décrocher de nouvelles certifications, je m'efforce de demeurer à la pointe dans un univers technologique en perpétuelle évolution. En dehors de mes fonctions, je partage mes connaissances techniques en créant du contenu, explorant ainsi les dernières tendances en matière d'administration système. 🚀💻
     imageUrl: "home/Jalal.png"
     imageWidth: 240
     imageHeight: 240
