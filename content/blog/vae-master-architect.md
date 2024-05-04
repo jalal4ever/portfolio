@@ -1,6 +1,6 @@
 ---
 title: "Préparation au Master VAE - Architecte Systèmes et Réseaux"
-description: "Vers la Voie du Succès : Préparation de mon Master via la VAE en tant qu'Architecte Systèmes et Réseaux Dynamique"
+description: "Vers la Voie du Succès : Préparation de mon master via la VAE en tant qu'Architecte Systèmes et Réseaux"
 dateString: Jan 2024
 draft: false
 tags: ["VAE", "Master", "Architect", "System"]
@@ -21,7 +21,7 @@ L'essence de ce projet est de me préparer à obtenir un Master, une étape impo
 
 La VAE, ou Validation des Acquis de l'Expérience, reconnaît l'expertise acquise grâce à l'expérience professionnelle. Pour un administrateur système tel que moi, c'est une opportunité de mettre en avant des années d'implication pratique dans l'élaboration de systèmes et de réseaux efficaces.
 
-# Stratégies de Préparation
+# Stratégies de préparation
 
 Se préparer à un Master via la VAE nécessite une stratégie réfléchie. Mon approche consiste à revisiter des projets, à réfléchir aux défis surmontés et à aligner ces expériences avec les exigences académiques d'un programme de Master. C'est un processus méticuleux consistant à établir des liens entre les connaissances pratiques et les concepts théoriques.
 
