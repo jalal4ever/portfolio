@@ -1,6 +1,6 @@
 ---
-title: "A Web Interface for Ivanti Endpoint Manager"
-description: "Simplifying Operations: Crafting a Web Interface for Ivanti Endpoint Manager"
+title: "Une Interface Web pour Ivanti Endpoint Manager"
+description: "Simplification des Opérations : Conception d'une Interface Web pour Ivanti Endpoint Manager"
 dateString: Oct 2023 - Fab 2024
 draft: false
 tags: ["Powershell", "PHP", "Python", "Ivanti", "HTML", "CSS"]
@@ -10,20 +10,20 @@ cover:
     image: "projects/web-interface-ivanti/Cover.png"
 --- 
 
-# Project Overview
+# Vue d'ensemble du Projet
 
-At the heart of this initiative is the aim to enhance user experience and operational efficiency. Leveraging the powerful Ivanti Endpoint Manager, I'm creating a centralized hub accessible through a web interface. This hub will be the go-to platform for executing essential operations seamlessly.
+Cette initiative vise à améliorer l'expérience utilisateur et l'efficacité opérationnelle en intégrant une interface web pour Ivanti Endpoint Manager. En tant que professionnel dans le domaine, je cherche à créer un hub centralisé qui sera accessible directement depuis votre blog. Cette plateforme fournira un accès simplifié aux fonctionnalités essentielles de gestion, offrant ainsi une expérience utilisateur fluide et une gestion efficace des opérations.
 
-# Tech Toolbox: MBSDK, PowerShell, and PHP
+# Boîte à Outils Technologique : MBSDK, PowerShell et PHP
 
-To bring this vision to life, I'm harnessing the capabilities of the Ivanti Management and Control Service SDK (MBSDK). This, coupled with the dynamic duo of PowerShell and PHP, forms the backbone of the interface. These technologies empower me to automate processes, ensuring a robust and responsive system.
+Pour concrétiser cette vision, j'exploite les capacités du kit de développement logiciel (SDK) de Ivanti Management and Control Service (MBSDK). Associé au duo dynamique de PowerShell et de PHP, cela constitue l'ossature de l'interface. Ces technologies me permettent d'automatiser les processus, garantissant ainsi un système robuste et réactif.
 
-# What to Expect
+# À quoi s'attendre
 
-The web interface will empower users to perform tasks such as OS Provisioning, software distribution, and application publication directly from the Ivanti portal. The integration of PowerShell and PHP facilitates a fluid and efficient workflow, making daily operations a breeze for various stakeholders.
+L'interface web permettra aux utilisateurs d'accomplir des tâches telles que le provisionnement du système d'exploitation, la distribution de logiciels et la publication d'applications directement depuis le portail Ivanti. L'intégration de PowerShell et de PHP facilite un flux de travail fluide et efficace, rendant les opérations quotidiennes un jeu d'enfant pour divers intervenants.
 
-# Simplified Daily Tasks
+# Tâches Quotidiennes Simplifiées
 
-Imagine a world where managing Ivanti Endpoint Manager is as simple as a few clicks. That's the future we're building. This web interface is not just a tool; it's a catalyst for simplifying the daily tasks of all involved parties. From IT administrators to end-users, everyone will experience a more intuitive and streamlined Ivanti Endpoint Manager journey.
+Imaginez un monde où la gestion de Ivanti Endpoint Manager se résume à quelques clics. C'est le futur que nous construisons. Cette interface web n'est pas seulement un outil; c'est un catalyseur pour simplifier les tâches quotidiennes de toutes les parties concernées. Des administrateurs IT aux utilisateurs finaux, tout le monde vivra un parcours Ivanti Endpoint Manager plus intuitif et simplifié
 
-Stay tuned as we embark on this tech adventure, transforming the intricate into the accessible, and making Ivanti Endpoint Manager a breeze to navigate. 🚀💻
+Transformant le complexe en accessible, et rendant la navigation dans Ivanti Endpoint Manager un jeu d'enfant. 🚀💻
