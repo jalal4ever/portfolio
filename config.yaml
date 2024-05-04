@@ -50,7 +50,7 @@ params:
   profileMode:
     enabled: true
     title: "Hello👋!"
-    subtitle: Je suis <b>Jalal</b>, un administrateur système fort de 13 années d'expérience, titulaire de certifications en Microsoft Azure (Entra ID) et Microsoft 365. Mon expertise avancée en administration système est au service de la solidité de notre infrastructure informatique. Toujours avide d'apprendre et de décrocher de nouvelles certifications, je m'efforce de demeurer à la pointe dans un univers technologique en perpétuelle évolution. En dehors de mes fonctions, je partage mes connaissances techniques en créant du contenu, explorant ainsi les dernières tendances en matière d'administration système. 🚀💻
+    subtitle: Je suis <b>Jalal</b>, un administrateur système fort de 13 années d'expérience, titulaire de certifications en Microsoft Azure (Entra ID) et Microsoft 365. Toujours avide d'apprendre et de décrocher de nouvelles certifications, je m'efforce de demeurer à la pointe dans un univers technologique en perpétuelle évolution. En dehors de mes fonctions, je partage mes connaissances techniques en créant du contenu, explorant ainsi les dernières tendances en matière d'administration système. 🚀💻
     imageUrl: "home/Jalal.png"
     imageWidth: 240
     imageHeight: 240
