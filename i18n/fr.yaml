@@ -31,3 +31,10 @@
 
 - id: code_copied
   translation: "Copié !"
+
+- id: Projects
+  translation: "Projets"
+
+- id: Experiences
+  translation: "Expériences"
+  
