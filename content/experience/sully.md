@@ -15,5 +15,3 @@ En tant qu'Administrateur Système chez NTN Europe, j'emploie activement Ivanti 
 Au-delà de ces aspects, je supervise avec vigilance les serveurs Windows, veille au fonctionnement optimal de la plateforme de virtualisation VMware, et assure la sauvegarde efficace des machines virtuelles via Veeam Backup & Replication. Mon implication se poursuit dans la résolution d'incidents complexes, la gestion des sauvegardes centralisées avec Arcserve, et ma contribution active aux projets, participant ainsi aux évolutions techniques du périmètre.
 
 Partisan de l'excellence opérationnelle, je documente minutieusement les processus et les procédures fonctionnelles pour optimiser l'expérience des utilisateurs. Mon engagement est résolument orienté vers la recherche de solutions et l'amélioration continue. 🚀✨
-
-![](/experience/16bit/img1.jpeg#center)
