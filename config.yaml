@@ -15,12 +15,10 @@ menu:
       weight: 20
     - identifier: projects
       name: Projets
-      title: Projets
       url: /projects
       weight: 30
     - identifier: experience
       name: Experiences
-      title: Expériences
       url: /experiences
       weight: 40
     - identifier: tags
