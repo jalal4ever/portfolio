@@ -3,7 +3,7 @@ title: "Développeur site web"
 description: "ADK Media (El Jadida - Maroc)"
 dateString: Avr 2011 - Mars 2012
 draft: false
-tags: []
+tags: ["PHP", "Drupal", "Wordpress", "HTML", "CSS", "IIS", "Hébérgement"]
 showToc: false
 weight: 305
 --- 
