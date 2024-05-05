@@ -15,7 +15,3 @@ Centre d’assistance technique Toshiba – PC portables pour les entreprises
 • Résoudre les problèmes techniques
 • Gérer les commandes de pièces défectueuses
 • Assurer un suivi auprès de l’utilisateur
-
-![](/experience/origin-health/img1.jpeg#center)
-![](/experience/origin-health/img2.jpeg)
-![](/experience/origin-health/img3.jpeg)
