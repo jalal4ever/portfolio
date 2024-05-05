@@ -39,7 +39,7 @@ params:
   defaultTheme: dark
   showToc: true
   TocOpen: false
-  ShowBreadCrumbs: false
+  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
 
