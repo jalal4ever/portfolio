@@ -7,7 +7,7 @@ tags: []
 showToc: false
 weight: 303
 --- 
-### 🔗 [GitHub](https://github.com/arkalim/pytorch-CycleGAN-and-pix2pix/tree/3D_Seg)
+### 🔗 [Kang](https://www.kang.fr/)
 
 ## Description
 
