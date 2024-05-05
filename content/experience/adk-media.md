@@ -22,7 +22,3 @@ weight: 305
 3/ Analyser et référencer
 • Suivre et analyser le trafic du site de la société
 • Assurer le référencement des sites web développés par la société
-
-![](/experience/iit-madras/img1.jpeg)
-![](/experience/iit-madras/img2.jpeg)
-![](/experience/iit-madras/img3.jpeg)
