@@ -19,7 +19,7 @@ menu:
       weight: 30
     - identifier: experience
       name: Experiences
-      url: /experiences
+      url: /experience
       weight: 40
     - identifier: tags
       name: Tags
