@@ -7,7 +7,7 @@ tags: ["Powershell", "Batch", "PHP", "Ansible", "Packer", "Terraform", "Vagrant"
 showToc: false
 weight: 201
 cover:
-    image: "projects/web-interface-ivanti/Cover.png"
+    image: "projects/web-interface-vmware/Cover.png"
 --- 
 
 # Vue d'ensemble du projet
