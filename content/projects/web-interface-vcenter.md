@@ -3,7 +3,7 @@ title: "Une interface web pour gérer la création des machines virtuelles"
 description: "Optimisation des opérations Sysadmin : Conception et déploiement d'une interface web dédiée à la gestion centralisée des VMs sur les différents ESx de l'entreprise."
 dateString: Jan 2024 - Avr 2024
 draft: false
-tags: ["Powershell", "Batch", "PHP", "Ansible", "Packer", "Terraform", "Vagrant", "VMWare", "Vcenter"; "JSON", "Python"]
+tags: ["Powershell", "Batch", "PHP", "Ansible", "Packer", "Terraform", "Vagrant", "VMWare", "Vcenter", "JSON", "Python"]
 showToc: false
 weight: 201
 cover:
