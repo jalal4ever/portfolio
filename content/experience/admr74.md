@@ -3,7 +3,7 @@ title: "Responsable du système d'information"
 description: "Fédération ADMR de Haute-Savoie (Argonay - France)"
 dateString: Août 2014 - Mai 2019
 draft: false
-tags: ["Windows OS", "GPO", "RDS", "Powershell", "Hotline", "RGPD", "IIS", "MDM", "SCCM", "Linux", "Exchange", "Iperius Backup", "GLPI", "RGPD", "Veeam", "VMWare", "VSphere"]
+tags: ["Windows OS", "GPO", "RDS", "Powershell", "Hotline", "Powershell", "Batch", "Zabbix", "PFSense", "IIS", "MDM", "SCCM", "MDT", "Linux", "Exchange", "Iperius Backup", "GLPI", "RGPD", "Veeam", "VMWare", "VSphere"]
 showToc: false
 weight: 302
 --- 
