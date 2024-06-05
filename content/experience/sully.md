@@ -3,7 +3,7 @@ title: "Administrateur Systèmes et Réseaux Télécoms"
 description: "Sully Group (Rhône Alpes)"
 dateString: Nov 2019 - Aujourd'hui
 draft: false
-tags: ["Windows OS", "Linux", "Azure Entra ID", "Docker", "GPO", "Microsoft 365", "Cacti", "Ivanti Endpoint Manager", "Exchange", "Sharepoint", "OneDrive", "VMWare", "Veeam", "Zabbix", "Passbolt", "Sharegate", "VSphere", "Ansible", "Vagrant", "Packer", "Terraform", "Powershell", "Apache Guacamole", "Intune", "Forcepoint", "Fortinet", "DNS, "Checkpoint", "OpenVPN", "IA", "Copilot" ]
+tags: ["Windows OS", "Linux", "Azure Entra ID", "Docker", "GPO", "Microsoft 365", "Cacti", "Ivanti Endpoint Manager", "Exchange", "Sharepoint", "OneDrive", "VMWare", "Veeam", "Zabbix", "Passbolt", "Sharegate", "VSphere", "Ansible", "Vagrant", "Packer", "Terraform", "Powershell", "Apache Guacamole", "Intune", "Forcepoint", "Fortinet", "DNS", "Checkpoint", "OpenVPN", "IA", "Copilot" ]
 showToc: false
 weight: 301
 --- 
