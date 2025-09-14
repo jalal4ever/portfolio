@@ -18,7 +18,7 @@ Cette interface web est née pour **réconcilier automatisation et contrôle**, 
 
 # Boîte à outils : l’alliance de la puissance et de la simplicité
 Pour construire cette solution, j’ai combiné :
-- **PowerShell** : le couteau suisse de l’automatisation, pour interagir avec Active Directory, Entra ID et Microsoft 365,
+- **PowerShell** et **Python** : le couteau suisse de l’automatisation, pour interagir avec Active Directory, Entra ID et Microsoft 365,
 - **SharePoint** : la source de vérité pour les données RH, interrogée en temps réel,
 - **Une interface web intuitive** : conçue pour les administrateurs, sans nécessiter de compétences en script,
 - **Des notifications intelligentes** : pour alerter en cas d’anomalie ou de besoin d’intervention.
