@@ -1,6 +1,6 @@
 ---
 title: "Administrateur Systèmes et Réseaux - Expertise Active Directory & Cloud"
-description: "Entis Mutuelles (Auvergne-Rhône-Alpes) - Intégration technique et humaine au service des PME"
+description: "Entis Mutuelles (Annecy - France) - Intégration technique et humaine au service des PME"
 dateString: Fév 2025 - Aujourd'hui
 draft: false
 tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "iPhone", "Kiamo", "Automatisation", "GPO", "Licences", "Sécurité", "Support", "Scripting", "Apple Business Manager", "Apple App Store", "Gestion des utilisateurs"]
