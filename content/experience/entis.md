@@ -6,7 +6,7 @@ dateString: Fév 2025 - Aujourd'hui
 draft: false
 tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "iPhone", "Kiamo","Automatisation", "GPO", "Licences", "Sécurité", "Support", "Scripting", "Entra ID", "Apple Business Manager", "Apple App Store", "Gestion des utilisateurs"]
 showToc: false
-weight: 301
+weight: 300
 ---
 
 ### Contexte
