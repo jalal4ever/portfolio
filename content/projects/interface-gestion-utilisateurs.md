@@ -5,7 +5,7 @@ dateString: Fev - Sep 2025
 draft: false
 tags: ["Active Directory", "Entra ID", "PowerShell", "Python", "SharePoint", "Automatisation", "Microsoft 365"]
 showToc: false
-weight: 203
+weight: 201
 cover:
     image: "projects/interface-gestion-utilisateurs/Cover.png"
 ---
