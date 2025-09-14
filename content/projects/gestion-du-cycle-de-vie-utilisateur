@@ -1,9 +1,9 @@
 ---
 title: "Gestion du cycle de vie des utilisateurs : une interface web tout-en-un"
 description: "Automatiser la création, modification et suppression des utilisateurs via une interface centralisée, intégrant Active Directory, Entra ID, SharePoint et Microsoft 365"
-dateString: Sep 2025
+dateString: Fev - Sep 2025
 draft: false
-tags: ["Active Directory", "Entra ID", "PowerShell", "SharePoint", "Automatisation", "Microsoft 365"]
+tags: ["Active Directory", "Entra ID", "PowerShell", "Python", "SharePoint", "Automatisation", "Microsoft 365"]
 showToc: false
 weight: 203
 cover:
