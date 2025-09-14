@@ -3,7 +3,7 @@ title: "Administrateur Systèmes et Réseaux - Expertise Active Directory & Clou
 description: "Entis Mutuelles (Annecy - France) - Intégration technique et humaine au service des PME"
 dateString: Fév 2025 - Aujourd'hui
 draft: false
-tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "iPhone", "Kiamo", "Automatisation", "GPO", "Licences", "Sécurité", "Support", "Scripting", "Apple Business Manager", "Apple App Store", "Gestion des utilisateurs"]
+tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "HyperV", "Microsoft365", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "iPhone", "Kiamo", "Automatisation", "GPO", "Licences", "Sécurité", "Support", "Scripting", "Apple Business Manager", "Apple App Store", "Gestion des utilisateurs"]
 showToc: false
 weight: 300
 cover:
@@ -67,8 +67,8 @@ Mon travail chez Entis Mutuelles s’articule autour de **trois piliers** :
 - Centralisation des processus (licences, AD, Intune) pour une gestion plus agile et sécurisée.
 
 ## Environnement technique
-**Outils clés** : Active Directory, Azure AD, Intune, PowerShell, Ivanti, SharePoint, Exchange Online, Veeam, VMware, Avaya, Apple Business Manager.
-**Langages/Technos** : PowerShell, Python, HTML/CSS (pour les interfaces web), MBSDK (Ivanti).
+**Outils clés** : Active Directory, Azure AD, Intune, PowerShell, Grafana, Zabbix, SharePoint, Exchange Online, Veeam, HyperV, VMware, Avaya, Apple Business Manager, SentinelOne.
+**Langages/Technos** : PowerShell, Python, HTML/CSS (pour les interfaces web).
 
 ---
 Cette expérience renforce ma conviction : **la technologie doit servir les humains, et non l’inverse**. Si vous souhaitez échanger sur ces sujets ou découvrir comment j’ai implémenté ces solutions, n’hésitez pas à me contacter !
