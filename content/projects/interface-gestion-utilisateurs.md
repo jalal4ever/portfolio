@@ -1,76 +1,120 @@
 ---
-title: "Gestion du cycle de vie des utilisateurs : une interface web tout-en-un"
-description: "Automatiser la création, modification et suppression des utilisateurs via une interface centralisée, intégrant Active Directory, Entra ID, SharePoint et Microsoft 365"
+title: "Gestion du cycle de vie des utilisateurs : automatisation des processus IT"
+description: "Centraliser et automatiser les opérations de création, modification et départ des collaborateurs dans un environnement Active Directory hybride."
 dateString: Fev - Sep 2025
 draft: false
-tags: ["Active Directory", "Entra ID", "PowerShell", "Python", "SharePoint", "Automatisation", "Microsoft 365"]
+tags: ["Active Directory", "Entra ID", "PowerShell", "Python", "Microsoft 365", "Automatisation", "Identity Management"]
 showToc: false
 weight: 201
 cover:
     image: "projects/interface-gestion-utilisateurs/Cover.png"
 ---
 
-# Pourquoi ce projet ?
-Dans une entreprise, gérer le cycle de vie des utilisateurs — de leur arrivée à leur départ — est un processus fastidieux et source d’erreurs. Entre la création de comptes, l’attribution de licences, la gestion des groupes et la désactivation des accès, les administrateurs passent des heures sur des tâches répétitives. **Et si tout cela pouvait se faire en quelques clics, avec une validation humaine à chaque étape critique ?**
-Cette interface web est née pour **réconcilier automatisation et contrôle**, en offrant une solution centralisée qui s’appuie sur les données RH, Active Directory, Entra ID et SharePoint.
+# Contexte
+
+Dans un environnement hybride combinant Active Directory, Entra ID et Microsoft 365, la gestion du cycle de vie des utilisateurs représente une part importante des opérations d'administration.
+
+Les arrivées, changements de poste et départs nécessitent de nombreuses actions : création des comptes, affectation des groupes de sécurité, attribution des licences Microsoft 365, gestion des équipements et suppression des accès.
+
+Afin de réduire les tâches manuelles, fiabiliser les traitements et améliorer la traçabilité, j'ai développé une interface web centralisant l'ensemble de ces opérations.
 
 ---
 
-# Boîte à outils : l’alliance de la puissance et de la simplicité
-Pour construire cette solution, j’ai combiné :
-- **PowerShell** et **Python** : le couteau suisse de l’automatisation, pour interagir avec Active Directory, Entra ID et Microsoft 365,
-- **SharePoint** : la source de vérité pour les données RH, interrogée en temps réel,
-- **Une interface web intuitive** : conçue pour les administrateurs, sans nécessiter de compétences en script,
-- **Des notifications intelligentes** : pour alerter en cas d’anomalie ou de besoin d’intervention.
+# Objectifs du projet
 
-L’objectif ? **Transformer un processus complexe en un flux fluide et sécurisé.**
+Cette solution répond à plusieurs enjeux :
 
----
-
-# À quoi s’attendre
-## 1. Création d’un utilisateur
-- L’interface lit les entrées depuis SharePoint (fichier RH ou saisie manuelle),
-- Elle crée automatiquement le compte dans **Active Directory local** et **Entra ID**,
-- Elle attribue les **licences Microsoft 365** adaptées au poste,
-- Elle affecte l’utilisateur aux **groupes de sécurité** correspondants,
-- Elle vérifie et suggère l’affectation d’un ordinateur, en croisant les données disponibles.
-
-## 2. Modification d’un utilisateur
-- Changement de nom, de fonction ou de service ? L’interface propose les modifications nécessaires,
-- L’administrateur peut valider ou ajuster directement depuis le tableau de bord,
-- Les mises à jour sont répercutées en temps réel dans **AD, Entra ID et SharePoint**.
-
-## 3. Fin de contrat
-- L’interface génère un **rapport complet** pour la RH (accès, licences, matériel),
-- Elle désactive les comptes et supprime les accès selon les règles métiers,
-- Elle propose une **vérification finale** avant suppression définitive.
+- Standardiser les processus d'administration des identités.
+- Réduire les erreurs liées aux opérations manuelles.
+- Améliorer la traçabilité des actions réalisées.
+- Garantir l'application des règles de gestion définies par la DSI.
+- Simplifier les opérations quotidiennes des administrateurs.
 
 ---
 
-# Un quotidien simplifié pour les administrateurs
-Imaginez un tableau de bord où :
-- Les **nouveaux utilisateurs** sont créés en 2 clics,
-- Les **modifications** sont suggérées et appliquées après validation,
-- Les **fin de contrat** sont gérées sans rien oublier,
-- Les **ordinateurs orphelins** (sans utilisateur attribué) sont identifiés et proposés à la réaffectation.
+# Technologies utilisées
 
-**Plus de risques d’oubli, plus de tâches manuelles fastidieuses.** Juste une interface qui travaille pour vous, comme un assistant infatigable. ☕💻
+L'application repose sur plusieurs briques techniques :
 
----
-Le saviez-vous ?
-> L’interface vérifie aussi la cohérence des données entre SharePoint et Active Directory. Si un utilisateur existe dans l’un mais pas dans l’autre, elle alerte l’administrateur pour éviter les incohérences.
+- PowerShell pour les interactions avec Active Directory, Microsoft 365 et Entra ID.
+- Python pour les traitements métiers et l'interface applicative.
+- Active Directory comme référentiel principal des identités.
+- Entra ID pour les services cloud Microsoft 365.
+- SharePoint pour le stockage et le suivi des demandes administratives.
+- API Microsoft Graph pour certaines opérations cloud.
 
 ---
 
-# Résultats concrets
-- **Gain de temps** : jusqu’à 80 % de tâches automatisées,
-- **Réduction des erreurs** : plus de comptes orphelins ou de licences inutiles,
-- **Traçabilité** : un historique complet de toutes les actions,
-- **Sérénité** : les administrateurs gardent la main sur les décisions critiques.
+# Fonctionnalités principales
+
+## Gestion des arrivées
+
+Lors de l'intégration d'un collaborateur, l'application permet :
+
+- La création automatique du compte Active Directory.
+- L'application des conventions de nommage définies par l'entreprise.
+- L'affectation des groupes de sécurité selon le métier ou le service.
+- L'attribution des licences Microsoft 365 nécessaires.
+- Le déclenchement des processus de synchronisation vers Entra ID.
+- La génération d'un compte-rendu des actions réalisées.
+
+## Gestion des modifications
+
+L'interface centralise les demandes de changement :
+
+- Modification des informations utilisateur.
+- Changement de service ou de fonction.
+- Mise à jour des groupes et habilitations.
+- Réattribution ou ajustement des licences Microsoft 365.
+- Historisation des modifications effectuées.
+
+## Gestion des départs
+
+Lorsqu'un collaborateur quitte l'entreprise :
+
+- Désactivation du compte Active Directory.
+- Révocation des accès Microsoft 365.
+- Retrait des groupes et habilitations.
+- Inventaire des licences à récupérer.
+- Génération d'un rapport destiné aux équipes IT et RH.
+- Conservation des informations conformément aux procédures internes.
 
 ---
-# Et demain ?
-Cette interface est conçue pour évoluer : intégration avec d’autres outils (comme Ivanti ou ServiceNow), gestion des appareils mobiles, ou même un portail utilisateur pour les demandes simples. **L’automatisation n’a pas de limite !**
+
+# Contrôles et cohérence des données
+
+L'application intègre plusieurs mécanismes de contrôle :
+
+- Vérification de l'existence des comptes dans Active Directory et Entra ID.
+- Détection des incohérences entre les différentes sources de données.
+- Contrôle des licences attribuées.
+- Identification des équipements non affectés.
+- Journalisation complète des opérations réalisées.
 
 ---
-J’espère que ce projet vous inspirera pour vos propres défis d’automatisation. Si vous voulez en savoir plus ou échanger sur des cas d’usage similaires, n’hésitez pas à me contacter !
+
+# Bénéfices obtenus
+
+La mise en place de cette solution a permis :
+
+- Une réduction significative du temps consacré aux tâches récurrentes.
+- Une meilleure homogénéité des configurations utilisateurs.
+- Une diminution des erreurs de saisie et d'attribution.
+- Une amélioration de la traçabilité des opérations administratives.
+- Une meilleure maîtrise du cycle de vie des identités.
+
+---
+
+# Perspectives d'évolution
+
+Plusieurs évolutions sont envisagées :
+
+- Intégration avec un outil ITSM.
+- Automatisation des workflows de validation.
+- Gestion avancée des équipements.
+- Intégration avec les solutions MDM et EMM.
+- Mise en place de tableaux de bord de suivi et de reporting.
+
+---
+
+Ce projet illustre comment l'automatisation peut contribuer à renforcer la qualité de service de la DSI tout en conservant les mécanismes de contrôle nécessaires à la gestion des identités et des accès.
