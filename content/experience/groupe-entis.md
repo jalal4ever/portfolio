@@ -3,12 +3,12 @@ title: "Responsable Support & Infrastructure IT"
 description: "Groupe Entis (Annecy - France)"
 dateString: Fev 2025 - Aujourd'hui
 draft: false
-tags: ["Microsoft 365", "Microsoft Entra ID", "Active Directory", "Python", "PowerShell", "Intune", "macOS", "Grafana", "Uptime Kuma", "Zabbix", "Veeam", "Avaya", "Nginx Proxy Manager", "Automatisation", "Cybersécurité", "Support IT"]
+tags: ["Microsoft 365", "Microsoft Entra ID", "Active Directory", "Python", "PowerShell", "Intune", "macOS", "Grafana", "Uptime Kuma", "Zabbix", "Veeam", "Avaya", "Nginx Proxy Manager", "Automatisation", "Cybersécurité", "Support IT", "Odoo", "Exchange Online", "Windows", "Fortinet", "Cisco", "EDR", "SentinelOne", "Liens internet"]
 showToc: false
-weight: 299
+weight: 300
 ---
 
-### 🔗 Entis Mutuelles
+### 🔗 [Groupe Entis](https://groupe-entis.fr)
 
 ## Description
 
