@@ -50,7 +50,7 @@ params:
   profileMode:
     enabled: true
     title: "Hello👋!"
-    subtitle: Je suis <b>Jalal</b>, Professionnel de l'infrastructure IT, j'accompagne les organisations dans l'évolution et la sécurisation de leur système d'information à travers une approche alliant exploitation, automatisation, gouvernance et amélioration continue. Mon parcours m'a progressivement conduit à intervenir sur des sujets variés tels que les infrastructures hybrides, Microsoft 365, la gestion des identités, la supervision, les sauvegardes, la cybersécurité, le support aux utilisateurs et l'automatisation des processus IT. Convaincu que la technologie doit avant tout simplifier le quotidien et créer de la valeur, je m'attache à concevoir des solutions pragmatiques, fiables et durables, adaptées aux besoins réels des utilisateurs et des métiers.
+    subtitle: Je suis <b>Jalal</b>, professionnel de l'infrastructure IT, j'accompagne l'évolution et la sécurisation des systèmes d'information grâce à l'automatisation, la gouvernance et l'amélioration continue, avec pour objectif de garantir des services fiables, performants et une expérience utilisateur contribuant durablement à la satisfaction des collaborateurs et des métiers.
     imageUrl: "home/Jalal.png"
     imageWidth: 240
     imageHeight: 240
