@@ -8,6 +8,7 @@ showToc: false
 weight: 300
 ---
 
+### 🔗 Entreprise
 ## Description
 
 Rejoignant Groupe Entis en 2025, j'ai progressivement élargi mon périmètre d'intervention de l'administration des infrastructures vers le pilotage du support et l'accompagnement des projets d'évolution du système d'information. Cette évolution s'inscrit dans une démarche centrée sur la qualité de service, la satisfaction des utilisateurs, l'amélioration continue et la sécurisation des environnements numériques.
