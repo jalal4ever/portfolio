@@ -8,7 +8,7 @@ tags: ["Python", "PowerShell", "Microsoft 365", "Automatisation", "Active Direct
 showToc: false
 weight: 201
 cover:
-image: "projects/parcours-utilisateurs/Cover.png"
+image: "projects/interface-gestion-utilisateurs/Cover.png"
 
 ---
 
