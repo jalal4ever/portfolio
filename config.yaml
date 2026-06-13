@@ -50,8 +50,7 @@ params:
   profileMode:
     enabled: true
     title: "Hello👋!"
-    subtitle: Je suis <b>Jalal</b>, un Administrateur Systèmes et Réseaux avec 10 ans d’expérience, certifié en Microsoft 365 et SCCM. Curieux et motivé par l'apprentissage continu, je reste à l'affût des évolutions technologiques pour garantir des environnements optimisés et sécurisés. En parallèle, je partage mes compétences en créant du contenu technique, contribuant activement à la communauté IT. 🚀💻
-    imageUrl: "home/Jalal.png"
+    subtitle: Je suis <b>Jalal</b>, Professionnel de l'infrastructure IT, j'accompagne les organisations dans l'évolution et la sécurisation de leur système d'information à travers une approche alliant exploitation, automatisation, gouvernance et amélioration continue. Mon parcours m'a progressivement conduit à intervenir sur des sujets variés tels que les infrastructures hybrides, Microsoft 365, la gestion des identités, la supervision, les sauvegardes, la cybersécurité, le support aux utilisateurs et l'automatisation des processus IT. Convaincu que la technologie doit avant tout simplifier le quotidien et créer de la valeur, je m'attache à concevoir des solutions pragmatiques, fiables et durables, adaptées aux besoins réels des utilisateurs et des métiers.
     imageWidth: 240
     imageHeight: 240
     # buttons:
