@@ -8,7 +8,7 @@ tags: ["Microsoft 365", "Microsoft Entra ID", "Architecture SI", "Cloud", "Sécu
 showToc: false
 weight: 101
 cover:
-    image: "/blog/ms-102-certification/Cover.png"
+    image:"/blog/ms-102-certification/Cover.png"
 ---
 
 # Vue d'ensemble du parcours
