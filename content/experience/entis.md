@@ -1,16 +1,16 @@
 ---
-
 title: "Responsable Support & Infrastructure IT"
-description: "Entis Mutuelles (Annecy - France)"
+description: "Groupe Entis (Annecy - France)"
 dateString: Fev 2025 - Aujourd'hui
 draft: false
 tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "HyperV", "Microsoft365", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "iPhone", "Kiamo", "Automatisation", "GPO", "Licences", "Sécurité", "Support", "Scripting", "Apple Business Manager", "Apple App Store", "Gestion des utilisateurs"]
+showtoc: false
 weight: 300
 ---
 
 ## Description
 
-Rejoignant Entis Mutuelles en 2025, j'ai progressivement élargi mon périmètre d'intervention de l'administration des infrastructures vers le pilotage du support et l'accompagnement des projets d'évolution du système d'information. Cette évolution s'inscrit dans une démarche centrée sur la qualité de service, la satisfaction des utilisateurs, l'amélioration continue et la sécurisation des environnements numériques.
+Rejoignant Groupe Entis en 2025, j'ai progressivement élargi mon périmètre d'intervention de l'administration des infrastructures vers le pilotage du support et l'accompagnement des projets d'évolution du système d'information. Cette évolution s'inscrit dans une démarche centrée sur la qualité de service, la satisfaction des utilisateurs, l'amélioration continue et la sécurisation des environnements numériques.
 
 Au quotidien, je veille au bon fonctionnement des services informatiques, au respect des processus et des bonnes pratiques du groupe, tout en accompagnant les équipes dans leurs usages et leurs besoins opérationnels. Mon rôle consiste également à identifier des opportunités d'optimisation et à mettre en œuvre des solutions permettant d'améliorer durablement la performance et la fiabilité du système d'information.
 
