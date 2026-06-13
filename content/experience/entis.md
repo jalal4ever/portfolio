@@ -1,5 +1,5 @@
 ---
-title: "Responsable Support & Infrastructure IT"
+title: "Responsable Support et Infrastructure IT"
 description: "Groupe Entis (Annecy - France)"
 dateString: Fev 2025 - Aujourd'hui
 draft: false
