@@ -1,141 +1,107 @@
-```markdown
 ---
+
 title: "Industrialisation du parcours utilisateurs : de PowerShell à Python"
-description: "Refonte complète du processus de gestion des entrées et sorties utilisateurs afin d'améliorer la fiabilité, la maintenabilité et la standardisation des opérations IT."
+description: "Conception d'une plateforme centralisée pour automatiser et fiabiliser la gestion du cycle de vie des utilisateurs au sein du système d'information."
 dateString: 2025 - 2026
 draft: false
-tags: ["Python", "PowerShell", "Microsoft 365", "Automatisation", "Active Directory", "Entra ID", "Git", "SharePoint"]
+tags: ["Python", "PowerShell", "Microsoft 365", "Automatisation", "Active Directory", "Entra ID", "Git", "SharePoint", "Letsignit"]
 showToc: false
 weight: 201
 cover:
-    image: "projects/parcours-utilisateurs/Cover.png"
----
+image: "projects/parcours-utilisateurs/Cover.png"
+-------------------------------------------------
 
-# Pourquoi ce projet ?
+# Vue d'ensemble du projet
 
-La gestion du cycle de vie des utilisateurs représente un enjeu majeur pour toute équipe IT.
+La gestion du cycle de vie des utilisateurs constitue un processus critique au sein du système d'information. Chaque arrivée, mobilité ou départ implique de nombreuses opérations nécessitant rigueur, cohérence et traçabilité.
 
-Création de comptes, attribution de licences, affectation de matériel, gestion des arrivées et des départs : ces opérations doivent être réalisées rapidement tout en garantissant la cohérence des données, la sécurité des accès et la traçabilité des actions.
+Historiquement, ces opérations reposaient sur plusieurs scripts PowerShell indépendants permettant d'automatiser certaines tâches d'administration. Bien que performante à ses débuts, cette approche présentait progressivement certaines limites liées à la maintenance, à la gestion des dépendances et à l'homogénéité des versions utilisées par les administrateurs.
 
-Historiquement, ces traitements reposaient sur plusieurs scripts PowerShell indépendants. Bien que fonctionnels, leur maintenance devenait de plus en plus complexe avec l'évolution des besoins et la multiplication des dépendances.
-
-Afin de fiabiliser le processus et de préparer les futures évolutions, une refonte complète de l'architecture a été engagée autour d'une approche centralisée basée sur Python.
+Dans une logique d'amélioration continue et de standardisation des pratiques, une refonte complète de la solution a été engagée afin de construire une plateforme centralisée capable d'accompagner durablement l'évolution des besoins de l'entreprise.
 
 ---
 
-# Une nouvelle architecture pensée pour la fiabilité
+# Boîte à outils technologique : Python, Git et SharePoint
 
-L'objectif n'était pas simplement de réécrire les scripts existants, mais de construire une plateforme d'automatisation capable d'évoluer dans le temps.
+Cette nouvelle génération d'outils repose sur une architecture Python modulaire conçue pour améliorer la fiabilité, la maintenabilité et l'évolutivité des traitements.
 
-Le nouveau modèle repose sur plusieurs principes :
+L'écosystème s'appuie notamment sur :
 
-- Un script orchestrateur centralisé.
-- Des modules Python spécialisés pour chaque fonction métier.
-- Une gestion indépendante des dépendances grâce aux environnements virtuels Python.
-- Un stockage centralisé des configurations.
-- Une distribution contrôlée des versions.
+* Python pour l'automatisation et l'orchestration des processus.
+* Des environnements virtuels Python afin de garantir l'isolation des dépendances.
+* Un dépôt Git centralisé assurant la gestion des versions et la diffusion des évolutions.
+* SharePoint comme référentiel central de configuration.
+* Active Directory et Microsoft Entra ID pour la gestion des identités.
+* Microsoft 365 et Letsignit pour les services utilisateurs.
 
-Cette architecture permet d'améliorer la stabilité des traitements tout en simplifiant leur maintenance.
-
----
-
-# Des environnements Python isolés
-
-L'une des difficultés rencontrées avec l'approche historique concernait la gestion des modules PowerShell et leurs différentes versions.
-
-Le nouveau système s'appuie sur des environnements virtuels Python dédiés afin d'isoler les dépendances et garantir un fonctionnement identique sur chaque poste d'administration.
-
-Cette approche permet :
-
-- D'éliminer les conflits entre versions de modules.
-- De simplifier les mises à jour.
-- D'assurer la reproductibilité des environnements.
-- De sécuriser les déploiements.
-
-Chaque administrateur dispose ainsi du même environnement d'exécution et des mêmes versions de composants.
+Cette approche garantit à chaque administrateur de travailler avec les mêmes versions de composants et les mêmes paramètres de configuration.
 
 ---
 
-# Un orchestrateur centralisé
+# Une architecture pensée pour la gouvernance
 
-Au cœur de la solution se trouve un orchestrateur Python qui pilote l'ensemble des opérations.
+Au cœur du dispositif se trouve un orchestrateur centralisé capable de piloter l'ensemble des opérations métier.
 
-Plutôt que d'exécuter localement des scripts dispersés, l'orchestrateur récupère automatiquement les modules depuis le dépôt Git de l'équipe.
+Plutôt que de maintenir localement plusieurs scripts indépendants, l'orchestrateur récupère automatiquement les modules validés depuis le dépôt Git de l'équipe.
 
-Cette approche garantit :
+Cette architecture permet :
 
-- L'utilisation de la dernière version validée.
-- La centralisation du code.
-- Une meilleure gouvernance des évolutions.
-- Une réduction des écarts entre les environnements.
+* D'assurer l'utilisation des dernières versions validées.
+* De simplifier la maintenance des développements.
+* D'améliorer la gouvernance des évolutions.
+* De réduire les écarts entre les environnements d'administration.
+* De faciliter l'intégration de nouvelles fonctionnalités.
 
-Les paramètres et fichiers de configuration sont quant à eux centralisés sur SharePoint afin de disposer d'une source unique de configuration pour l'ensemble des administrateurs.
-
----
-
-# Gestion des arrivées
-
-L'orchestrateur centralise les opérations liées à l'intégration des nouveaux collaborateurs.
-
-Depuis une interface unique, il est possible de :
-
-- Créer les comptes utilisateurs.
-- Attribuer les licences Microsoft 365.
-- Configurer les signatures électroniques Letsignit.
-- Affecter les groupes et habilitations nécessaires.
-- Associer le matériel informatique au collaborateur.
-- Garantir la cohérence des informations entre les différents systèmes.
-
-L'ensemble du processus est standardisé afin de réduire les interventions manuelles et les risques d'erreur.
+Les fichiers de configuration sont quant à eux centralisés sur SharePoint afin de garantir une cohérence globale des paramétrages utilisés en production.
 
 ---
 
-# Gestion des départs
+# À quoi s'attendre
 
-Le projet couvre également l'ensemble du processus de sortie des collaborateurs.
+La plateforme centralise l'ensemble des opérations liées au parcours utilisateur.
 
-L'outil permet notamment de :
+Depuis une interface unique, les administrateurs peuvent notamment :
 
-- Identifier les comptes et accès associés.
-- Recenser les licences attribuées.
-- Consulter le matériel affecté à l'utilisateur.
-- Suivre la restitution des équipements.
-- Préparer les opérations de désactivation et d'archivage.
+* Créer les nouveaux collaborateurs.
+* Modifier les informations existantes.
+* Attribuer les licences Microsoft 365.
+* Déployer automatiquement les signatures Letsignit.
+* Affecter le matériel informatique.
+* Gérer les groupes et habilitations.
+* Contrôler les informations de référence.
+* Préparer et suivre les départs des collaborateurs.
 
-Cette visibilité facilite le travail des équipes IT tout en améliorant la traçabilité des restitutions.
+L'ensemble des traitements s'appuie sur des processus standardisés afin de garantir la cohérence des opérations et la qualité des données.
 
 ---
 
-# Synchronisation avec les données RH
+# Synchronisation et qualité des données
 
-La qualité des données constitue un élément essentiel du dispositif.
+La fiabilité d'un système d'information repose avant tout sur la qualité de ses données.
 
-L'orchestrateur intègre un mécanisme de synchronisation permettant de comparer régulièrement les informations présentes dans le système d'information avec celles issues des référentiels RH.
+Dans cette optique, la plateforme intègre des mécanismes de synchronisation permettant de rapprocher les informations issues des référentiels RH avec celles présentes dans les différents systèmes administrés.
 
 Cette démarche permet :
 
-- De détecter les écarts de données.
-- De corriger les incohérences.
-- De maintenir une information fiable.
-- De renforcer la qualité des processus d'administration.
+* De détecter rapidement les écarts de données.
+* De renforcer la cohérence des informations utilisateurs.
+* D'améliorer la qualité des référentiels.
+* De limiter les erreurs administratives.
+* De sécuriser les processus d'entrée et de sortie.
 
-L'objectif est de disposer en permanence d'une vision cohérente et à jour des utilisateurs et de leurs affectations.
+L'objectif est de disposer d'une vision fiable et actualisée de chaque collaborateur tout au long de son parcours dans l'entreprise.
 
 ---
 
-# Résultats obtenus
+# Des opérations quotidiennes simplifiées
 
-Cette refonte a permis de transformer un ensemble de scripts indépendants en une solution cohérente et évolutive.
+Imaginez un environnement où l'ensemble des actions liées au cycle de vie des utilisateurs est accessible depuis une interface unique, cohérente et standardisée.
 
-Les principaux bénéfices sont :
+Les arrivées sont préparées plus rapidement.
+Les licences sont attribuées automatiquement.
+Les signatures sont déployées sans intervention manuelle.
+Les équipements sont suivis plus efficacement.
+Les départs sont sécurisés et tracés.
+Les données RH restent cohérentes avec les systèmes techniques.
 
-- Une standardisation des opérations d'administration.
-- Une meilleure maîtrise des versions déployées.
-- Une réduction des problèmes liés aux dépendances techniques.
-- Une amélioration de la qualité des données.
-- Une simplification de la gestion des arrivées et des départs.
-- Une meilleure traçabilité des actions réalisées.
-- Une base solide pour les futures automatisations.
-
-Au-delà du gain opérationnel, ce projet illustre une démarche d'industrialisation des processus IT visant à rendre les opérations plus fiables, plus maintenables et plus sécurisées.
-```
+Cette plateforme ne se limite pas à l'automatisation de tâches administratives. Elle constitue un véritable levier d'industrialisation des processus IT, permettant de gagner en fiabilité, en traçabilité et en qualité de service tout en préparant les futures évolutions du système d'information.
