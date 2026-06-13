@@ -9,7 +9,8 @@ showToc: false
 weight: 201
 cover:
 image: "projects/parcours-utilisateurs/Cover.png"
--------------------------------------------------
+
+---
 
 # Vue d'ensemble du projet
 
