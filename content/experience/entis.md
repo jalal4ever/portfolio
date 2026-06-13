@@ -3,12 +3,13 @@ title: "Responsable Support et Infrastructure IT"
 description: "Groupe Entis (Annecy - France)"
 dateString: Fev 2025 - Aujourd'hui
 draft: false
-tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "HyperV", "Microsoft365", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "iPhone", "Kiamo", "Automatisation", "GPO"]
+tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "HyperV", "Microsoft365", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "Automatisation", "GPO"]
 showToc: false
 weight: 300
 ---
 
-### 🔗 Entreprise
+### 🔗 [Groupe Entis](https://groupe-entis.fr)
+
 ## Description
 
 Rejoignant Groupe Entis en 2025, j'ai progressivement élargi mon périmètre d'intervention de l'administration des infrastructures vers le pilotage du support et l'accompagnement des projets d'évolution du système d'information. Cette évolution s'inscrit dans une démarche centrée sur la qualité de service, la satisfaction des utilisateurs, l'amélioration continue et la sécurisation des environnements numériques.
@@ -24,4 +25,3 @@ Dans une logique de supervision proactive, j'ai participé à la mise en place e
 Mon périmètre couvre également la gestion des sauvegardes, la participation aux projets d'infrastructure et de connectivité des agences, l'administration de la téléphonie Avaya ainsi que la mise en œuvre de solutions telles que Nginx Proxy Manager afin de simplifier et sécuriser la publication des services internes.
 
 Convaincu que la technologie doit avant tout servir les utilisateurs et les métiers, j'inscris chacune de mes actions dans une démarche pragmatique visant à construire un système d'information fiable, sécurisé, évolutif et capable d'accompagner durablement les besoins de l'entreprise. 🚀
-
