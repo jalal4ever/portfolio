@@ -4,7 +4,7 @@ description: "Groupe Entis (Annecy - France)"
 dateString: Fev 2025 - Aujourd'hui
 draft: false
 tags: ["Active Directory", "Azure AD", "Entra ID", "Python", "SentinelOne", "HyperV", "Microsoft365", "Intune", "PowerShell", "Microsoft 365", "Exchange Online", "SharePoint", "Avaya", "iPhone", "Kiamo", "Automatisation", "GPO", "Licences", "Sécurité", "Support", "Scripting", "Apple Business Manager", "Apple App Store", "Gestion des utilisateurs"]
-showtoc: false
+showToc: false
 weight: 300
 ---
 
